@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Poppins", sans-serif;
+    font-size: 62.5%;
+    background: rgb(236, 200, 121);
+    background: linear-gradient(
+      77deg,
+      rgba(236, 200, 121, 1) 0%,
+      rgba(255, 255, 255, 0.5690651260504201) 48%,
+      rgba(71, 202, 243, 0.37298669467787116) 86%
+    );
+    height: 2600px;
+  }
+  
+  /* ################ Utility classes ############  */
+  
+  
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    background: #fd5b2f;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  /* ############### Header section styling ############## */
+  
+  .header {
+    background: lightgreen;
+    height: 130vh;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* ############ Navbar styling ##########  */
+  
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 4.2rem;
+    padding-top: 0.7rem;
+  }
+  
+  .navbar .mid-nav h2 {
+    font-weight: 600;
+  }
+  
+  .navbar .left-nav,
+  .right-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .navbar li {
+    list-style-type: none;
+  }
+  
+  .navbar .left-nav a {
+    color: rgb(107, 104, 104);
+    text-decoration: none;
+    margin-right: 0.8rem;
+  }
+  
+  .navbar .right-nav a {
+    color: gray;
+    text-decoration: none;
+    margin-left: 0.8rem;
+  }
+  
+  /* ################### Showcase section styling ##############  */
+  
+  .showcase {
+    position: relative;
+  }
+  
+  .showcase .vector {
+    position: absolute;
+    top: 8rem;
+  }
+  
+  .showcase h1 {
+    display: inline-block;
+    position: absolute;
+    width: 23rem;
+    top: 9rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  
+  .showcase .hero-img {
+    position: absolute;
+    height: 35rem;
+    left: 45%;
+    top: 0;
+  }
+  
+  /* ############# city nav style ##########  */
+  
+  .city-nav {
+    position: absolute;
+    top: 25rem;
+    width: 35rem;
+    height: 3.2rem;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    color: rgb(85, 82, 82);
+  }
+  
+  .city-nav .city,
+  .location h2 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .showcase .people {
+    position: absolute;
+    top: 30rem;
+    width: 35rem;
+    height: 3rem;
+    padding-left: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  /* ############ logo-bar design ############  */
+  
+  .logo-bar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 32%;
+    top: 42rem;
+  }
+  
+  .logo-bar a {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  .logo-bar .logo {
+    color: gray;
+    margin-left: 2rem;
+  }
+  
+  
+  /* ################### content-wrapper section styling #########  */
+  
+  .content-wrapper {
+    height: 600vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+  
+  /* ################# services section design #########  */
+  
+  .services {
+    background: lightcoral;
+  }
+  .services .service-wrapper {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .service-wrapper .logo-section {
+    width: 50%;
+  }
+  
+  .service-wrapper .logo-section img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .service-wrapper .text-section {
+    width: 50%;
+  } 
+  
+  /* ################# visions section design ###############  */
+  
+  .visions {
+    background: lightseagreen;
+  }
+  .visions .visions-wrapper {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .visions .visions-wrapper .text-section {
+    width: 50%;
+  }
+  
+  .visions .visions-wrapper .logo-section {
+    width: 50%;
+  }
+  
+  .visions .visions-wrapper .logo-section img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  /* ################# solutions section design ###############  */
+  
+  .solutions {
+    background: lightsalmon;
+  }
+  .solutions .solutions-wrapper {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .solutions .solutions-wrapper .text-section {
+    width: 50%;
+  }
+  
+  .solutions .solutions-wrapper .logo-section {
+    width: 50%;
+  }
+  
+  .solutions .solutions-wrapper .logo-section img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* ################# benefits section design ###############  */
+  
+  .benefits {
+    background: lightgreen;
+  }
+  
+  .benefits .benefits-wrapper {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  /* ################# gallery section design ###############  */
+  
+  .gallery {
+    background: lightpink;
+    height: 80vh;
+  }
+  
+  .gallery .gallery-wrapper {
+    height: 100%;
+  }
+  
+  .gallery .gallery-wrapper img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* ##################### member section styling ###########  */
+  
+  .member {
+    background: lightseagreen;
+  }
+  
+  .member .member-wrapper {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .member .member-wrapper .text-section {
+    width: 50%;
+  }
+  
+  .member .member-wrapper .logo-section {
+    width: 50%;
+  }
+  
+  .member .member-wrapper .logo-section img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  
