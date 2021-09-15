@@ -37,7 +37,6 @@
   /* ############### Header section styling ############## */
   
   .header {
-    background: lightgreen;
     height: 130vh;
     width: 80%;
     margin: 0 auto;
@@ -176,9 +175,6 @@
   
   /* ################# services section design #########  */
   
-  .services {
-    background: lightcoral;
-  }
   .services .service-wrapper {
     width: 100%;
     height: 80vh;
@@ -201,10 +197,7 @@
   } 
   
   /* ################# visions section design ###############  */
-  
-  .visions {
-    background: lightseagreen;
-  }
+
   .visions .visions-wrapper {
     width: 100%;
     height: 80vh;
@@ -229,9 +222,7 @@
   
   /* ################# solutions section design ###############  */
   
-  .solutions {
-    background: lightsalmon;
-  }
+
   .solutions .solutions-wrapper {
     width: 100%;
     height: 80vh;
@@ -255,10 +246,7 @@
   
   /* ################# benefits section design ###############  */
   
-  .benefits {
-    background: lightgreen;
-  }
-  
+
   .benefits .benefits-wrapper {
     height: 80vh;
     display: flex;
@@ -269,7 +257,6 @@
   /* ################# gallery section design ###############  */
   
   .gallery {
-    background: lightpink;
     height: 80vh;
   }
   
@@ -284,9 +271,6 @@
   
   /* ##################### member section styling ###########  */
   
-  .member {
-    background: lightseagreen;
-  }
   
   .member .member-wrapper {
     width: 100%;
