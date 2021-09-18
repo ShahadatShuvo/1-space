@@ -148,6 +148,7 @@ body {
     position: absolute;
     top: 36rem;
     width: 65%;
+    font-size: 2rem;
     height: 3.5rem;
     display: flex;
     justify-content: space-between;
