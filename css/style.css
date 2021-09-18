@@ -140,13 +140,14 @@ body {
 }
 
 .header-element .h-position {
+    font-size: 3rem;
     position: relative;
 }
 
 .header-element .h-position .city-nav {
     background: lightblue;
     position: absolute;
-    font-size: 1.5rem;
+    font-size: .8rem;
     top: 36rem;
     width: 65%;
     height: 5rem;
