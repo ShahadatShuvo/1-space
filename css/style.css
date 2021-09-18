@@ -9,7 +9,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 body {
@@ -149,7 +149,7 @@ body {
     font-size: .8rem;
     top: 36rem;
     width: 65%;
-    height: 3.5rem;
+    height: 4.5rem;
     display: flex;
     justify-content: space-between;
     padding: .5rem 1rem;
@@ -168,7 +168,7 @@ body {
 .header-element .h-position .people img {
     padding: .5rem 0;
     padding-left: 1rem;
-    height: 3.5rem;
+    height: 4.5rem;
     position: absolute;
     width: 65%;
     top: 41rem;
